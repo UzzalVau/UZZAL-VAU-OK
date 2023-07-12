@@ -41,7 +41,7 @@ try:
 	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
-	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mUzzal_adijaya_xy')
+	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mUzzal_Vau_xy')
 prox=open('.prox.txt','r').read().splitlines()
 for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
@@ -133,8 +133,8 @@ def banner():
        print(f'''\t{M} 
 
 			
-	 [➣] OWNER   :   MD UZZAL Hossain 
-	 [➣] FACEBOOK:   MD UZZAL Hossain 
+	 [➣] OWNER   :   MD UZZAL HOSSAIN
+	 [➣] FACEBOOK:   MD UZZAL HOSSAIN 
 	 [➣] VERSION :   2.5
 	 
 	 \x1b[92;1mTHIS TOOL CRATE BY UZZAL  ''')
@@ -200,18 +200,18 @@ def menu(my_name,my_id):
 	print('\x1b[92;1m[ 1 ] CRACK MULITY ID')
 	print("[ A ] ABOUT TOOLS")
 	print('[ 0 ] LOG OUT')
-	_____Uzzal__adijaya_____ = input('\n[➣_] CHOICE MENU :  ')
-	if _____Uzzal__adijaya_____ in ['1']:
+	_____Uzzal__Vau_____ = input('\n[➣_] CHOICE MENU :  ')
+	if _____Uzzal__Vau_____ in ['1']:
 		dump_massal()
-	elif _____Uzzal__adijaya_____ in ['2']:
+	elif _____Uzzal__Vau_____ in ['2']:
 		exit()
-	elif _____Uzzal__adijaya_____ in ['99']:
+	elif _____Uzzal__Vau_____ in ['99']:
 		exit()
-	elif _____Uzzal__adijaya_____ in ['3']:
+	elif _____Uzzal__Vau_____ in ['3']:
 		exit()
-	elif _____Uzzal__adijaya_____ in ['98']:
+	elif _____Uzzal__Vau_____ in ['98']:
 		exit()
-	elif _____Uzzal__adijaya_____ in ['0']:
+	elif _____Uzzal__Vau_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
 		print(' SUCEES LOGOTED ')
